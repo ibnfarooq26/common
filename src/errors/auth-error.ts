@@ -1,5 +1,5 @@
 import { CustomError } from "./custom-error";
-
+//checking
 export class AuthError extends CustomError {
   statusCode = 400;
   constructor() {
