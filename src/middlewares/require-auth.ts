@@ -6,7 +6,6 @@ export const requireAuth = (
   res: Response,
   next: NextFunction
 ) => {
-  console.log("reqq");
   if (!req.currentUser) {
     throw new AuthError();
   }
